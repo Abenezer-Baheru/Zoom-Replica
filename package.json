@@ -1,0 +1,20 @@
+{
+  "name": "zoom-replica",
+  "version": "1.0.0",
+  "description": "zoom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Abenezer",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "peer": "^0.6.1",
+    "peerjs": "^1.4.7",
+    "socket.io": "^4.5.3",
+    "uuid": "^9.0.0"
+  }
+}
